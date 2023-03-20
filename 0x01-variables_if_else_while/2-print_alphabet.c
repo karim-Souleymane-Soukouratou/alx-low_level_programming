@@ -1,18 +1,15 @@
 #include <stdio.h>
 
 /**
- *entry int main
- *description: print the alphabets in lowercase
- *return success(0)
+ * main - Entry point
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
-	char var = 'a';
-	
-	for (var = 'a'; var <= 'z'; var++)
+	char c;
 
-		putchar(var);
-
+	for (c = 'a'; c <= 'z'; c++)
+		putchar(c);
 	putchar('\n');
 	return (0);
 }
