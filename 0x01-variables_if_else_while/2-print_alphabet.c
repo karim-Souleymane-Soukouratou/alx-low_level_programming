@@ -5,7 +5,6 @@
  *description: print the alphabets in lowercase
  *return success(0)
  */
-
 int main(void)
 {
 	char var = 'a';
