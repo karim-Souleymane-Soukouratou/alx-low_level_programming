@@ -1,20 +1,22 @@
 #include <stdio.h>
+
 /**
- * main - Prints all possible different combinations of two digits.
- * Return: always 0 (success)
+ * main - Print combinations of two digit numbers
+ *
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
-	int i;
-	int j;
-	
-	for (i  = 0; i < 10; i++)
+	int tens;
+	int ones;
+
+	for (tens = 0; tens <= 9; tens++)
 	{
-		for (j = i + 1; j < 10; j++)
+		for (ones = tens + 1; ones <= 9; ones++)
 		{
-			putchar(i + '0');
-			putchar(j + '0');
-			if (i < 8)
+			putchar(tens + '0');
+			putchar(ones + '0');
+			if (tens < 8)
 			{
 				putchar(',');
 				putchar(' ');
@@ -22,5 +24,6 @@ int main(void)
 		}
 	}
 	putchar('\n');
+
 	return (0);
 }
