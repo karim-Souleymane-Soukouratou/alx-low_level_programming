@@ -1,5 +1,12 @@
 #include <stdio.h>
-
+/**
+ *main - entry point
+ *
+ *Description: prints all single digit characters of base 10
+ *
+ *Return: always zero
+ *
+ */
 int main(void)
 {
 	int nb;
