@@ -1,13 +1,18 @@
 #include <stdio.h>
+#include <unistd.h>
+/**
+ * main -Entry point
+ * Description: prints allsingle digit numbers of
+ * Return: Always 0 (success)
+ */
+int main(void)
+{
+	int a;
 
-int main() {
-	int i;
-
-	for (i = 0; i < 10; i++) 
+	for (a = 0; a < 10; a++)
 	{
-		putchar(i + '0');
+		printf("%d", a);
 	}
 	putchar('\n');
 	return (0);
 }
-
