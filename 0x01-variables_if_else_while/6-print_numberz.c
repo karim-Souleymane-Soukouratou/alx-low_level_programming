@@ -1,12 +1,13 @@
-int main() {
-  int i;
-  
-  for (i = 0; i < 10; i++) {
-    putchar(i + '0');
-  }
-  
-  putchar('\n');
-  
-  return 0;
-}
+#include <stdio.h>
 
+int main(void)
+{
+	int nb;
+
+	for (nb = 0; nb < 10; nb++)
+	{
+		putchar(nb);
+	}
+	putchar('\n');
+	return (0);
+}
