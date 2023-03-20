@@ -1,20 +1,19 @@
 #include <stdio.h>
 #include <unistd.h>
-
 /**
- *main : entry point
- *description : a program that prints the alphabet in lowercase, followed by a new line.
- *return : 0 Always (success)
+ * main - Entry point
+ * Description: prints lowercase alphabets
+ * Return: Always 0 (success)
  */
 int main(void)
 {
-	int c;
+	int ch;
 
-	for (c = 'a'; c <= 'z'; c++)
+	for (ch = 'a'; ch <= 'z'; ch++)
 	{
-		if (c != 'e' && c != 'q')
+		if (ch != 'e' && ch != 'q')
 		{
-			putchar(c);
+			putchar(ch);
 		}
 		else
 		{
