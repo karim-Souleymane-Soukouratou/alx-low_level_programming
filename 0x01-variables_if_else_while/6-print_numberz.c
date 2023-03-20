@@ -6,7 +6,7 @@ int main(void)
 
 	for (nb = 0; nb < 10; nb++)
 	{
-		putchar(nb);
+		putchar(nb + '0');
 	}
 	putchar('\n');
 	return (0);
