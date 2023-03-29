@@ -1,23 +1,23 @@
 #include "main.h"
 
 /**
- * _strcat - concat 2 st
+ * _strcat - concat 2 string
  * @dest:char
  * @src:char
  * Return:char
  */
-char *_strcat(char *dest
+char *_strcat(char *dest, char *src)
 {
 	char *s = dest;
 
-	while (*dest != 
+	while (*dest != '\0')
 	{
 		dest++;
 	}
 
-	while (*src != '
+	while (*src != '\0')
 	{
-		*dest = 
+		*dest = *src;
 		dest++;
 		src++;
 	}
