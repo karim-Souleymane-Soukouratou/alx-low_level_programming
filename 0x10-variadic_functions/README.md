@@ -1,1 +1,0 @@
-REadme about Variadic functions

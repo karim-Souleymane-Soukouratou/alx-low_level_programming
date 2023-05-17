@@ -1,1 +1,0 @@
-Readme about Structures, typedef 
